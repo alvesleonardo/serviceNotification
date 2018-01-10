@@ -1,0 +1,28 @@
+This code shows a crash in Oneplus using the oreo libraries for notification for foreground services
+
+E/xca: RuntimeException while executing runnable xdp{vwn@5464429} with executor ums@865b3ae
+           java.util.concurrent.RejectedExecutionException: Task umw@1632db0 is rejected by adapter [java.util.concurrent.ScheduledThreadPoolExecutor@7b93cf3[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 58]]
+               at vuw.a(PG:14)
+               at vuw.execute(PG:24)
+               at ums.execute(PG:24)
+               at xca.b(PG:278)
+               at xca.a(PG:238)
+               at xca.a(PG:151)
+               at xco.run(PG:55)
+               at xeg.execute(PG:3)
+               at xca.b(PG:278)
+               at xca.a(PG:238)
+               at xca.a(PG:151)
+               at xco.run(PG:55)
+               at xeg.execute(PG:3)
+               at xca.b(PG:278)
+               at xca.a(PG:238)
+               at xca.a(PG:151)
+               at vzw.execute(PG:13)
+               at xca.b(PG:278)
+               at xca.a(PG:238)
+               at ywl.a(PG:52)
+               at yxw.run(PG:6)
+               at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+               at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+               at java.lang.Thread.run(Thread.java:764)
